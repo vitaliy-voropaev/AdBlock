@@ -143,7 +143,7 @@
 		
 		if (this._options.debug === true) 
         {
-			this._log('check', 'An audit was requested '+(loop===true?'with a':'without')+' loop');
+			this._log('check', 'An audit was requested '+(loop === true?'with a':'without')+' loop');
 		}
 		
 		if (this._var.checking === true) 
@@ -313,11 +313,11 @@
 	
 	AdBlock.prototype.on = function(detected, fn) 
     {
-		this._var.event[(detected===true?'detected':'notDetected')].push(fn);
+		this._var.event[(detected === true?'detected':'notDetected')].push(fn);
         
 		if (this._options.debug === true) 
         {
-			this._log('on', 'A type of event "'+(detected===true?'detected':'notDetected')+'" was added');
+			this._log('on', 'A type of event "'+(detected === true?'detected':'notDetected')+'" was added');
 		}
 		
 		return this;
