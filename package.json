@@ -1,0 +1,32 @@
+{
+	"name": "adblock",
+	"version": "1.0.0",
+	"description": "Detects AdBlock",
+	"author": {
+		"name" : "Vitaliy Voropaev",
+		"email" : "vitaliy.voropaev.ua@gmail.com",
+		"url" : ""
+	},
+	"license": "MIT",
+	"keywords": [
+		"adblock",
+		"advertising",
+		"ad",
+		"block",
+		"lock",
+		"detection",
+		"detecting"
+	],
+	"main": "adblock.js",
+	"scripts": {
+		"test": "echo \"Error: no test specified\" && exit 1"
+	},
+	"homepage": "https://github.com/vitaliy-voropaev/AdBlock",
+	"repository": {
+		"type": "git",
+		"url": "git://github.com/vitaliy-voropaev/AdBlock.git"
+	},
+	"bugs": {
+		"url": "https://github.com/vitaliy-voropaev/AdBlock/issues"
+	}
+}
